@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapAdd() {
-        let vc = storyboard?.instantiateViewController(withIdentifier: "task") as! EntryViewController
+        let vc = storyboard?.instantiateViewController(withIdentifier: "entryView") as! EntryViewController
         vc.title = "New Task"
         vc.update = {
             DispatchQueue.main.async {
@@ -59,18 +59,21 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
 
+
 }
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let vc = storyboard?.instantiateViewController(withIdentifier: "task") as! TaskViewController
-        vc.title = "New Task"
+        let vc = storyboard?.instantiateViewController(withIdentifier: "taskView") as! TaskViewController
+        vc.title = "Task Details"
         vc.task = tasks[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
 }
+
+
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

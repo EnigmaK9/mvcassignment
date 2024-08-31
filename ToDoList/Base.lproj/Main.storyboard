@@ -43,7 +43,7 @@
                     <navigationItem key="navigationItem" id="R2R-Qt-a2Y">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="1mC-Bq-lxT">
                             <connections>
-                                <action selector="didTapAdd" destination="BYZ-38-t0r" id="VB9-tJ-7M5"/>
+                                <action selector="didTapAdd" destination="BYZ-38-t0r" id="udN-DI-9Pg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -108,7 +108,7 @@
         <!--Entry View Controller-->
         <scene sceneID="dRg-4U-zGK">
             <objects>
-                <viewController storyboardIdentifier="entry" id="Pgb-ju-htN" customClass="EntryViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="entryView" id="Pgb-ju-htN" customClass="EntryViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D5u-Sx-BzE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
