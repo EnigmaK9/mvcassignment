@@ -16,6 +16,8 @@
 		347E44DD2C82C42000492244 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E44DC2C82C42000492244 /* ToDoListTests.swift */; };
 		347E44E72C82C42000492244 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E44E62C82C42000492244 /* ToDoListUITests.swift */; };
 		347E44E92C82C42000492244 /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E44E82C82C42000492244 /* ToDoListUITestsLaunchTests.swift */; };
+		347E44F62C82CC2D00492244 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E44F52C82CC2D00492244 /* EntryViewController.swift */; };
+		347E44F82C82CC6A00492244 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E44F72C82CC6A00492244 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		347E44E22C82C42000492244 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347E44E62C82C42000492244 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		347E44E82C82C42000492244 /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		347E44F52C82CC2D00492244 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		347E44F72C82CC6A00492244 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				347E44CE2C82C42000492244 /* Assets.xcassets */,
 				347E44D02C82C42000492244 /* LaunchScreen.storyboard */,
 				347E44D32C82C42000492244 /* Info.plist */,
+				347E44F52C82CC2D00492244 /* EntryViewController.swift */,
+				347E44F72C82CC6A00492244 /* TaskViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				347E44CA2C82C41F00492244 /* ViewController.swift in Sources */,
+				347E44F62C82CC2D00492244 /* EntryViewController.swift in Sources */,
+				347E44F82C82CC6A00492244 /* TaskViewController.swift in Sources */,
 				347E44C62C82C41F00492244 /* AppDelegate.swift in Sources */,
 				347E44C82C82C41F00492244 /* SceneDelegate.swift in Sources */,
 			);
@@ -457,6 +465,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = padilla.carlos.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,6 +496,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = padilla.carlos.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
