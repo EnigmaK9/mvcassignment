@@ -2,7 +2,7 @@
 
 A simple To-Do List app built with Swift and UIKit to manage your daily tasks efficiently.
 
-![ToDoList Demo](project.gif)
+![ToDoList Demo](proyect.gif)
 
 ## Features
 
