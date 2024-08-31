@@ -2,7 +2,7 @@
 
 A simple To-Do List app built with Swift and UIKit to manage your daily tasks efficiently.
 
-![ToDoList Demo](protect.gif)
+![ToDoList Demo](project.gif)
 
 ## Features
 
@@ -46,3 +46,4 @@ Carlos Padilla
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
